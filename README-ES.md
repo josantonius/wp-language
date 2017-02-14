@@ -53,7 +53,7 @@ require __DIR__ . '/vendor/autoload.php';
 
 use Josantonius\WP\Language\Language;
 
-new Language('textdomain', dirname(plugin_basename(__FILE__)).'/languages/');
+Language::load('textdomain', dirname(plugin_basename(__FILE__)).'/languages/');
 
 echo __('Texto a traducir', 'textdomain');
 

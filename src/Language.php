@@ -28,7 +28,7 @@ class Language {
 	 * 
 	 * @uses load_plugin_textdomain() → Initialize plugin and activation hooks
 	 */
-	public function __construct($textdomain, $languagePath) {
+	public static function load($textdomain, $languagePath) {
 
         load_plugin_textdomain($textdomain, false, $languagePath);
 	}
