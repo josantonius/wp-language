@@ -2,7 +2,7 @@
 
 [![Latest Stable Version](https://poser.pugx.org/josantonius/wp-language/v/stable)](https://packagist.org/packages/josantonius/wp-language) [![Total Downloads](https://poser.pugx.org/josantonius/wp-language/downloads)](https://packagist.org/packages/josantonius/wp-language) [![Latest Unstable Version](https://poser.pugx.org/josantonius/wp-language/v/unstable)](https://packagist.org/packages/josantonius/wp-language) [![License](https://poser.pugx.org/josantonius/wp-language/license)](https://packagist.org/packages/josantonius/wp-language)
 
-[Spanish version](README-ES.md)
+[English version](README.md)
 
 Carga de complemento de dominio de texto para traducciones.
 
@@ -15,8 +15,8 @@ Carga de complemento de dominio de texto para traducciones.
 - [Tests](#tests)
 - [Contribuir](#contribuir)
 - [Repositorio](#repositorio)
-- [Autor](#autor)
 - [Licencia](#licencia)
+- [Copyright](#copyright)
 
 ---
 
@@ -28,6 +28,14 @@ Para instalar PHP WordPress Language library, simplemente escribe:
 
     $ composer require Josantonius/WP-Language
 
+El comando anterior sólo instalará los archivos necesarios, si prefieres descargar todo el código fuente (incluyendo tests, directorio vendor, excepciones no utilizadas, documentos...) puedes utilizar:
+
+    $ composer require Josantonius/WP-Language --prefer-source
+
+También puedes clonar el repositorio completo con Git:
+
+	$ git clone https://github.com/Josantonius/WP-Language.git
+	
 ### Requisitos
 
 Esta ĺibrería es soportada por versiones de PHP 5.6 o superiores y es compatible con versiones de HHVM 3.0 o superiores.
@@ -72,10 +80,14 @@ Esto está pensado para proyectos grandes y de larga duración.
 
 Los archivos de este repositorio se crearon y subieron automáticamente con [Reposgit Creator](https://github.com/Josantonius/BASH-Reposgit).
 
-### Autor
-
-Mantenido por [Josantonius](https://github.com/Josantonius/).
-
 ### Licencia
 
-Este proyecto está licenciado bajo la **licencia MIT**. Consulta el archivo [LICENSE](LICENSE) para más información.
+Este proyecto está licenciado bajo **licencia MIT**. Consulta el archivo [LICENSE](LICENSE) para más información.
+
+### Copyright
+
+2017 Josantonius, [josantonius.com](https://josantonius.com/)
+
+Si te ha resultado útil, házmelo saber :wink:
+
+Puedes contactarme en [Twitter](https://twitter.com/Josantonius) o a través de mi [correo electrónico](mailto:hello@josantonius.com).

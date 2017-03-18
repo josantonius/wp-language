@@ -2,7 +2,7 @@
 
 [![Latest Stable Version](https://poser.pugx.org/josantonius/wp-language/v/stable)](https://packagist.org/packages/josantonius/wp-language) [![Total Downloads](https://poser.pugx.org/josantonius/wp-language/downloads)](https://packagist.org/packages/josantonius/wp-language) [![Latest Unstable Version](https://poser.pugx.org/josantonius/wp-language/v/unstable)](https://packagist.org/packages/josantonius/wp-language) [![License](https://poser.pugx.org/josantonius/wp-language/license)](https://packagist.org/packages/josantonius/wp-language)
 
-[Spanish version](README-ES.md)
+[Versión en español](README-ES.md)
 
 Load text domain plugin for translations.
 
@@ -14,8 +14,8 @@ Load text domain plugin for translations.
 - [Usage](#usage)
 - [Contribute](#contribute)
 - [Repository](#repository)
-- [Author](#author)
 - [Licensing](#licensing)
+- [Copyright](#copyright)
 
 ---
 
@@ -27,6 +27,14 @@ To install PHP Wordpress Language library, simply:
 
     $ composer require Josantonius/WP-Language
 
+El comando anterior sólo instalará los archivos necesarios, si prefieres descargar todo el código fuente (incluyendo tests, directorio vendor, excepciones no utilizadas, documentos...) puedes utilizar:
+
+    $ composer require Josantonius/WP-Language --prefer-source
+
+También puedes clonar el repositorio completo con Git:
+
+	$ git clone https://github.com/Josantonius/WP-Language.git
+	
 ### Requirements
 
 This library is supported by PHP versions 5.6 or higher and is compatible with HHVM versions 3.0 or higher.
@@ -71,10 +79,14 @@ This is intended for large and long-lived objects.
 
 All files in this repository were created and uploaded automatically with [Reposgit Creator](https://github.com/Josantonius/BASH-Reposgit).
 
-### Author
-
-Maintained by [Josantonius](https://github.com/Josantonius/).
-
 ### Licensing
 
 This project is licensed under **MIT license**. See the [LICENSE](LICENSE) file for more info.
+
+### Copyright
+
+2017 Josantonius, [josantonius.com](https://josantonius.com/)
+
+If you find it useful, let me know :wink:
+
+You can contact me on [Twitter](https://twitter.com/Josantonius) or through my [email](mailto:hello@josantonius.com).
