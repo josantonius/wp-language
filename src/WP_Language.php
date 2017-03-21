@@ -9,14 +9,14 @@
  * @since      1.0.0
  */
 
-namespace Josantonius\WP\Language;
+namespace Josantonius\WP_Language;
 
 /**
  * Language Handler.
  *
  * @since 1.0.0
  */
-class Language {
+class WP_Language {
 
     /**
      * Initialize the plugin and activation hooks.

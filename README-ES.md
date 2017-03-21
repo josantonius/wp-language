@@ -12,7 +12,7 @@ Carga de complemento de dominio de texto para traducciones.
 - [Requisitos](#requisitos)
 - [Cómo empezar y ejemplos](#cómo-empezar-y-ejemplos)
 - [Uso](#uso)
-- [Tests](#tests)
+- [TODO](#todo)
 - [Contribuir](#contribuir)
 - [Repositorio](#repositorio)
 - [Licencia](#licencia)
@@ -49,7 +49,7 @@ Para utilizar esta librería, simplemente:
 ```php
 require __DIR__ . '/vendor/autoload.php';
 
-use Josantonius\WP\Language\Language;
+use Josantonius\WP_Language\WP_Language;
 ```
 ### Uso
 
@@ -59,13 +59,16 @@ Ejemplo de uso para esta librería:
 <?php
 require __DIR__ . '/vendor/autoload.php';
 
-use Josantonius\WP\Language\Language;
+use Josantonius\WP_Language\WP_Language;
 
-Language::load('textdomain', dirname(plugin_basename(__FILE__)).'/languages/');
+WP_Language::load('textdomain', dirname(plugin_basename(__FILE__)).'/languages/');
 
 echo __('Texto a traducir', 'textdomain');
-
 ```
+
+### ☑ TODO
+
+- [ ] Agregar tests
 
 ### Contribuir
 1. Comprobar si hay incidencias abiertas o abrir una nueva para iniciar una discusión en torno a un fallo o función.

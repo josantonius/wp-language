@@ -1,6 +1,6 @@
 {
     "name":        "josantonius/wp-language",
-    "version":     "1.0.1",
+    "version":     "1.0.2",
     "type":        "library",
     "description": "Load text domain plugin for translations.",
     "keywords": [
@@ -33,7 +33,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Josantonius\\WP\\Language\\": "src/"
+            "Josantonius\\WP\\WP_Language\\": "src/"
         }
     },
     "extra": {

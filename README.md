@@ -12,6 +12,7 @@ Load text domain plugin for translations.
 - [Requirements](#requirements)
 - [Quick Start and Examples](#quick-start-and-examples)
 - [Usage](#usage)
+- [TODO](#todo)
 - [Contribute](#contribute)
 - [Repository](#repository)
 - [Licensing](#licensing)
@@ -48,7 +49,7 @@ To use this class, simply:
 ```php
 require __DIR__ . '/vendor/autoload.php';
 
-use Josantonius\WP\Language\Language;
+use Josantonius\WP_Language\WP_Language;
 ```
 ### Usage
 
@@ -58,13 +59,16 @@ Example of use for this library:
 <?php
 require __DIR__ . '/vendor/autoload.php';
 
-use Josantonius\WP\Language\Language;
+use Josantonius\WP_Language\WP_Language;
 
-Language::load('textdomain', dirname(plugin_basename(__FILE__)).'/languages/');
+WP_Language::load('textdomain', dirname(plugin_basename(__FILE__)).'/languages/');
 
 echo __('Text to translate', 'textdomain');
-
 ```
+
+### ☑ TODO
+
+- [ ] Add tests
 
 ### Contribute
 1. Check for open issues or open a new issue to start a discussion around a bug or feature.
