@@ -5,7 +5,7 @@
  * @author     Josantonius - hello@josantonius.com
  * @copyright  Copyright (c) 2017
  * @license    https://opensource.org/licenses/MIT - The MIT License (MIT)
- * @link       https://github.com/Josantonius/WP-Language
+ * @link       https://github.com/Josantonius/WP_Language
  * @since      1.0.0
  */
 

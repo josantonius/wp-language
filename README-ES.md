@@ -1,6 +1,6 @@
 # PHP WordPress Language library
 
-[![Latest Stable Version](https://poser.pugx.org/josantonius/wp-language/v/stable)](https://packagist.org/packages/josantonius/wp-language) [![Total Downloads](https://poser.pugx.org/josantonius/wp-language/downloads)](https://packagist.org/packages/josantonius/wp-language) [![Latest Unstable Version](https://poser.pugx.org/josantonius/wp-language/v/unstable)](https://packagist.org/packages/josantonius/wp-language) [![License](https://poser.pugx.org/josantonius/wp-language/license)](https://packagist.org/packages/josantonius/wp-language)
+[![Latest Stable Version](https://poser.pugx.org/josantonius/wp_language/v/stable)](https://packagist.org/packages/josantonius/wp_language) [![Total Downloads](https://poser.pugx.org/josantonius/wp_language/downloads)](https://packagist.org/packages/josantonius/wp_language) [![Latest Unstable Version](https://poser.pugx.org/josantonius/wp_language/v/unstable)](https://packagist.org/packages/josantonius/wp_language) [![License](https://poser.pugx.org/josantonius/wp_language/license)](https://packagist.org/packages/josantonius/wp_language)
 
 [English version](README.md)
 
@@ -26,15 +26,15 @@ La mejor forma de instalar esta extensión es a través de [composer](http://get
 
 Para instalar PHP WordPress Language library, simplemente escribe:
 
-    $ composer require Josantonius/WP-Language
+    $ composer require Josantonius/WP_Language
 
 El comando anterior sólo instalará los archivos necesarios, si prefieres descargar todo el código fuente (incluyendo tests, directorio vendor, excepciones no utilizadas, documentos...) puedes utilizar:
 
-    $ composer require Josantonius/WP-Language --prefer-source
+    $ composer require Josantonius/WP_Language --prefer-source
 
 También puedes clonar el repositorio completo con Git:
 
-	$ git clone https://github.com/Josantonius/WP-Language.git
+	$ git clone https://github.com/Josantonius/WP_Language.git
 	
 ### Requisitos
 
