@@ -1,4 +1,4 @@
-# PHP WordPress Language library
+# PHP WordPress Language (OBSOLETO)
 
 [![Latest Stable Version](https://poser.pugx.org/josantonius/wp_language/v/stable)](https://packagist.org/packages/josantonius/wp_language) [![Total Downloads](https://poser.pugx.org/josantonius/wp_language/downloads)](https://packagist.org/packages/josantonius/wp_language) [![Latest Unstable Version](https://poser.pugx.org/josantonius/wp_language/v/unstable)](https://packagist.org/packages/josantonius/wp_language) [![License](https://poser.pugx.org/josantonius/wp_language/license)](https://packagist.org/packages/josantonius/wp_language)
 
