@@ -1,6 +1,7 @@
-# PHP WordPress Language (OBSOLETO)
+# PHP WordPress Language
 
-[![Latest Stable Version](https://poser.pugx.org/josantonius/wp_language/v/stable)](https://packagist.org/packages/josantonius/wp_language) [![Total Downloads](https://poser.pugx.org/josantonius/wp_language/downloads)](https://packagist.org/packages/josantonius/wp_language) [![Latest Unstable Version](https://poser.pugx.org/josantonius/wp_language/v/unstable)](https://packagist.org/packages/josantonius/wp_language) [![License](https://poser.pugx.org/josantonius/wp_language/license)](https://packagist.org/packages/josantonius/wp_language)
+[![Latest Stable Version](https://poser.pugx.org/josantonius/wp-language/v/stable)](https://packagist.org/packages/josantonius/wp-language)
+[![License](https://poser.pugx.org/josantonius/wp-language/license)](https://packagist.org/packages/josantonius/wp-language)
 
 [English version](README.md)
 
@@ -12,30 +13,27 @@ Carga de complemento de dominio de texto para traducciones.
 - [Requisitos](#requisitos)
 - [Cómo empezar y ejemplos](#cómo-empezar-y-ejemplos)
 - [Uso](#uso)
-- [TODO](#todo)
-- [Contribuir](#contribuir)
-- [Repositorio](#repositorio)
+- [Patrocinar](#patrocinar)
 - [Licencia](#licencia)
-- [Copyright](#copyright)
 
 ---
 
-### Instalación 
+### Instalación
 
 La mejor forma de instalar esta extensión es a través de [composer](http://getcomposer.org/download/).
 
 Para instalar PHP WordPress Language library, simplemente escribe:
 
-    $ composer require Josantonius/WP_Language
+    composer require josantonius/wp-language
 
 El comando anterior sólo instalará los archivos necesarios, si prefieres descargar todo el código fuente (incluyendo tests, directorio vendor, excepciones no utilizadas, documentos...) puedes utilizar:
 
-    $ composer require Josantonius/WP_Language --prefer-source
+    composer require josantonius/wp-language --prefer-source
 
 También puedes clonar el repositorio completo con Git:
 
-	$ git clone https://github.com/Josantonius/WP_Language.git
-	
+ git clone <https://github.com/josantonius/wp-language.git>
+
 ### Requisitos
 
 Esta ĺibrería es soportada por versiones de PHP 5.6 o superiores y es compatible con versiones de HHVM 3.0 o superiores.
@@ -51,6 +49,7 @@ require __DIR__ . '/vendor/autoload.php';
 
 use Josantonius\WP_Language\WP_Language;
 ```
+
 ### Uso
 
 Ejemplo de uso para esta librería:
@@ -66,31 +65,14 @@ WP_Language::load('textdomain', dirname(plugin_basename(__FILE__)).'/languages/'
 echo __('Texto a traducir', 'textdomain');
 ```
 
-### ☑ TODO
+## Patrocinar
 
-- [ ] Agregar tests
+Si este proyecto te ayuda a reducir el tiempo de desarrollo,
+[puedes patrocinarme](https://github.com/josantonius/lang/es-ES/README.md#patrocinar)
+para apoyar mi trabajo :blush:
 
-### Contribuir
-1. Comprobar si hay incidencias abiertas o abrir una nueva para iniciar una discusión en torno a un fallo o función.
-1. Bifurca la rama del repositorio en GitHub para iniciar la operación de ajuste.
-1. Escribe una o más pruebas para la nueva característica o expón el error.
-1. Haz cambios en el código para implementar la característica o reparar el fallo.
-1. Envía pull request para fusionar los cambios y que sean publicados.
+## Licencia
 
-Esto está pensado para proyectos grandes y de larga duración.
+Este repositorio tiene una licencia [MIT License](LICENSE).
 
-### Repositorio
-
-Los archivos de este repositorio se crearon y subieron automáticamente con [Reposgit Creator](https://github.com/Josantonius/BASH-Reposgit).
-
-### Licencia
-
-Este proyecto está licenciado bajo **licencia MIT**. Consulta el archivo [LICENSE](LICENSE) para más información.
-
-### Copyright
-
-2017 Josantonius, [josantonius.com](https://josantonius.com/)
-
-Si te ha resultado útil, házmelo saber :wink:
-
-Puedes contactarme en [Twitter](https://twitter.com/Josantonius) o a través de mi [correo electrónico](mailto:hello@josantonius.com).
+Copyright © 2017-2022, [Josantonius](https://github.com/josantonius/lang/es-ES/README.md#contacto)

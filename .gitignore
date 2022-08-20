@@ -10,3 +10,6 @@ docs/*.pyc
 .git*/
 .idea
 .DS_STORE
+.repository.md
+wp-language.code-workspace
+.vscode/
